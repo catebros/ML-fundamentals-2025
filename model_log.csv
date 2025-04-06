@@ -1,0 +1,9 @@
+Model,R2_Score,MSE,MAE,Features_Used,Comment
+Linear Regression,0.345355780572236,31760.51773227217,127.04619511813532,"season, yr, mnth, holiday, workingday, weathersit, temp, atemp, hum, windspeed, hr_sin, hr_cos, weekday_sin, weekday_cos","First iteration: no outlier/anomalies/placeholders/missing data/HT, feature selection"
+Linear Regression,0.3913667164293,29528.265310576466,122.99436235546456,"season, yr, mnth, holiday, workingday, weathersit, temp, atemp, hum, windspeed, hr_sin, hr_cos, weekday_sin, weekday_cos",No outlier/anomalies/placeholders/Missing data/fancy
+XGBoost,0.8157658947702393,8938.245221433246,66.76095092661842,"['season', 'yr', 'mnth', 'holiday', 'workingday', 'weathersit', 'temp', 'atemp', 'hum', 'windspeed', 'hr_sin', 'hr_cos', 'weekday_sin', 'weekday_cos']",No outlier/anomalies/placeholders/Missing data/fancy
+Random forest,0.7452784395402454,12357.992933697264,78.85300052742616,"['season', 'yr', 'mnth', 'holiday', 'workingday', 'weathersit', 'temp', 'atemp', 'hum', 'windspeed', 'hr_sin', 'hr_cos', 'weekday_sin', 'weekday_cos']",No outlier/anomalies/placeholders/Missing data/fancy
+Linear Regression,0.345355780572236,31760.51773227217,127.04619511813532,"['season', 'yr', 'workingday', 'weathersit', 'hr_sin', 'hr_cos', 'weekday_sin']","No outlier/anomalies/placeholders/Missing data/fancy Added feature selection TH: var = 0.1, corr = 0.5"
+Random forest,0.5904975523404636,19867.29488220081,97.4343512555308,"['season', 'yr', 'workingday', 'weathersit', 'hr_sin', 'hr_cos', 'weekday_sin']","""No outlier/anomalies/placeholders/Missing data/fancy Added feature selection TH: var = 0.1, corr = 0.5"""
+XGBoost,0.6290708419579822,17995.885019359346,93.9597649092607,"['season', 'yr', 'workingday', 'weathersit', 'hr_sin', 'hr_cos', 'weekday_sin']","""No outlier/anomalies/placeholders/Missing data/fancy Added feature selection TH: var = 0.1, corr = 0.5"""
+
